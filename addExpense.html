@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<title>Skarbonka-main aplication</title>
+	<meta name="description" content="Program do monitorwania domowego budżetu" />
+	<meta name="keywords" content="Budżet" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="main.css">
+	
+	
+	<link rel="stylesheet" href="cssFontello/fontello.css" type="text/css">
+	
+</head>
+<body>
+
+	<header>
+		<div class="topbar">
+			<i class="icon-money-1"></i>
+			Skarbonka- Dodaj wydatek
+			<i class="icon-money-1"></i>
+		</div>
+		
+	</header>
+	
+	<main>
+		<div class="containerExpenses">
+			<h1 class="h4">Dodaj wydatek </h1>
+				<label for="data">Data wydatku</label> 
+				<input type="date" id="data" name ="data">
+			
+			<div class="inputExpense">
+			<input type="text" name = "expense" placeholder="Wpisz wydatek" onfocus="this.placeholder=''" onblur="this.placeholder='Wpisz wydatek'">
+			</div>
+			
+			<div class="inputExpense">
+			<input type="text" name = "expenseValue" placeholder="Kwota wydatku" onfocus="this.placeholder=''" onblur="this.placeholder='Kwota wydatku'">
+			</div>
+			
+			<div class="inputExpense">
+			<input type="text" name = "expenseTag" placeholder="Kategoria wydatku" onfocus="this.placeholder=''" onblur="this.placeholder='Kategoria wydatku">
+			</div>
+			
+			<div class="inputExpense">
+				<input type="submit" value="Dodaj wydatek">
+			</div>
+			
+
+		</div>
+	</main>
+
+</body>

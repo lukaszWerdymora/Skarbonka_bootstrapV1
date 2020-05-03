@@ -1,0 +1,127 @@
+body
+{
+	
+		background-color: #444;
+		font-size:20px;
+		font-family: 'Lato', sans-serif;
+	
+}
+#wrapped
+{
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#topbar
+{
+	
+	
+	margin-top: 25px;
+	background-color: #85bb65;
+	padding: 5px;
+	font-size: 34px;
+	text-align:center;
+	letter-spacing:1px;
+	color: #444444;
+	border-radius:5px;
+}
+
+#loogedUser
+{
+	margin-top:15px;
+	text-align:right;
+	color: #dddddd;
+	
+}
+.logoutHref
+{
+	
+	text-decoration:none;
+	color: #ddd;
+}
+.logoutHref:hover
+{
+	color: #E15050;
+}
+#options
+{
+	margin-top:15px;
+	
+}
+.upperTile
+{
+
+	float:left;
+	width:250px;
+	padding-top:10px;
+	padding-bottom:10px;
+	text-align:center;
+	
+	border-radius:5px;
+	letter-spacing:2px;
+	
+}
+.upperTile:hover
+{
+	background-color: #555;
+}
+a.tileLink
+{
+	color:#ddd;
+	text-decoration:none;
+	display: block;
+	width:236px;
+	height: 80px;
+}
+.lowerTile
+{
+	margin-top:10px;
+	text-align:center;
+	letter-spacing:2px;
+	font-size:25px;
+	padding:10px;
+	border-radius:5px;
+	
+}
+.lowerTile:hover
+{
+	background-color: #555;
+}
+a.monhlyBalnce
+{
+	
+	text-decoration:none;
+	display: block;
+	color:#ddd;
+
+}
+#tableContent
+{
+	margin-top:10px;
+	width:1000px;
+
+	
+}
+.tableIncomesExpenses
+{
+	font-size:15px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	border-collapse:collapse;
+	padding: 5px;
+	color: #ddd
+}
+.tableIncomesExpenses td
+{
+	border: 1px solid #ddd;
+	padding: 5px;
+}
+#fotter
+{
+	margin-top:15px;
+	text-align:center;
+	color: #ddd;
+	text-decoration:underline;
+	
+}
