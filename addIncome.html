@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<title>Skarbonka-main aplication</title>
+	<meta name="description" content="Program do monitorwania domowego budżetu" />
+	<meta name="keywords" content="Budżet" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="main.css">
+	
+	
+	<link rel="stylesheet" href="cssFontello/fontello.css" type="text/css">
+	
+</head>
+<body>
+
+	<header>
+		<div class="topbar">
+			<i class="icon-money-1"></i>
+			Skarbonka- Dodaj wpływ
+			<i class="icon-money-1"></i>
+		</div>
+		
+	</header>
+	
+	<main>
+		<div class="containerIncomes">
+			
+			<form>
+				<label for="dateFormat">Data wpływu</label> 
+				<input type="date" id="dateFormat">
+			
+				<div class="inputIncome">
+				<input type="text" name = "income" placeholder="Wpisz wpływ" onfocus="this.placeholder=''" onblur="this.placeholder='Wpisz wpływ'">
+				</div>
+				
+				<div class="inputIncome">
+				<input type="text" name = "incomeValue" placeholder="Kwota wpływu" onfocus="this.placeholder=''" onblur="this.placeholder='Kwota wpływu'">
+				</div>
+				
+				<div class="inputIncome">
+				<input type="text" name = "incomeTag" placeholder="Kategoria wpływu" onfocus="this.placeholder=''" onblur="this.placeholder='Kategoria wpływu'">
+				</div>
+				
+				<div class="inputIncome">
+					<input type="submit" value="Dodaj wpływ">
+				</div>
+					
+				
+
+				<div class="resetButton">
+					<input type="reset" id="resetButton" value="Wyczyść dane">
+				</div>
+				
+			</form>
+			<div class="inputIncome">
+			<button id="buttonToMainMenu"class="buttonToMainMenu">Menu Główne</button>
+			</div>
+		
+			
+		
+		</div>
+	</main>
+			
+
+	<script src="serviceJS.js"></script>
+</body>

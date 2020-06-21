@@ -29,9 +29,10 @@
 	
 	<main>
 		<div class="containerExpenses">
-			<h1 class="h4">Dodaj wydatek </h1>
-				<label for="data">Data wydatku</label> 
-				<input type="date" id="data" name ="data">
+			
+			<form>
+				<label for="dateFormat">Data wydatku</label> 
+				<input type="date" id="dateFormat">
 			
 			<div class="inputExpense">
 			<input type="text" name = "expense" placeholder="Wpisz wydatek" onfocus="this.placeholder=''" onblur="this.placeholder='Wpisz wydatek'">
@@ -42,15 +43,34 @@
 			</div>
 			
 			<div class="inputExpense">
-			<input type="text" name = "expenseTag" placeholder="Kategoria wydatku" onfocus="this.placeholder=''" onblur="this.placeholder='Kategoria wydatku">
+			<input type="text" name = "expenseTag" placeholder="Kategoria wydatku" onfocus="this.placeholder=''" onblur="this.placeholder='Kategoria wydatku'">
 			</div>
 			
 			<div class="inputExpense">
 				<input type="submit" value="Dodaj wydatek">
 			</div>
+				
 			
 
+			<div class="resetButton">
+				<input type="reset" id="resetButton" value="Wyczyść dane">
+			</div>
+			
+			</form>
+			<div class="inputExpense">
+			<button id="buttonToMainMenu"class="buttonToMainMenu">Menu Główne</button>
+			</div>
+		
+			
+		
+		
+			<p>
+			http://www.kurshtml.edu.pl/html/zdarzenia,html.html
+			https://the-awwwesomes.gitbooks.io/html-css-step-by-step/content/pl/css-basics/css-cascade/index.html
+			</p>
 		</div>
 	</main>
+			
 
+	<script src="serviceJS.js"></script>
 </body>
