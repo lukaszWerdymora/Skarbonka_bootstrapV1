@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<title>Skarbonka-podsumowanie wydatków</title>
+	<meta name="description" content="Program do monitorwania domowego budżetu" />
+	<meta name="keywords" content="Budżet" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="cssFontello/fontello.css" type="text/css">
+	<script src="serviceJS.js"></script>
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+</head>
+<body onload="drawPieChartExpanses();">
+
+	<header>
+		<div class="topbar">
+			<i class="icon-money-1"></i>
+			Skarbonka- Podusmowanie Wydatków
+			<i class="icon-money-1"></i>
+		</div>
+		
+	</header>
+	
+	<main>
+		<div class="containerSummary">
+			<div id="piechart" ></div>
+			<div class="col-12">
+			
+				<table class="expensesAndIncomesTable">
+					
+					<tr>
+						<td>L.P.</td><td>Data wydatku</td> <td>Nazwa wydatku</td> <td>Kwota wydatku</td> <td>Tag wydatku</td>
+					</tr>
+					<tr>
+						<td>1</td><td>2020-01-01</td> <td>Alkohol na impreze</td> <td>100</td>  <td>Rozrywka</td>
+					</tr>
+					<tr>
+						<td>2</td><td>2020-01-02</td> <td>Kino</td> <td>75</td>  <td>Rozrywka</td>
+					</tr>
+					<tr>
+						<td>3</td><td>2020-01-03</td>  <td>Zakupy spoż</td> <td>125.25</td><td>Zakupy spożywcze</td>
+					</tr>
+				
+				</table>
+			</div>
+		
+		</div>
+	</main>
+			
+
+	
+	
+</body>
